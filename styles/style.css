@@ -11,8 +11,7 @@ body {
 }
 
 .vrch {
-	height: 200px;;
-	
+	height: 200px;
 }
 header {
 	background: url(../images/edventure_logo.png) no-repeat center;
@@ -23,7 +22,7 @@ header {
 h2 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.5em;
-	font-weight:normal;
+	font-weight: normal;
 	letter-spacing: 0.0625em;
 	color: #333333;
 	text-align: center;
@@ -40,7 +39,7 @@ a {
 	color: #fe6f17;
 	font-weight: bold;
 }
-	
+
 img {
 	max-width: 100%;
 	overflow: hidden;
@@ -48,7 +47,7 @@ img {
 
 #content {
 	width: 100%;
-	height: 1000px;
+	height: 900px;
 	position: relative;
 	border-bottom: 1px solid #dddddd;
 	border-top: 1px solid #dddddd;
@@ -75,7 +74,7 @@ img {
 	position: absolute;
 	top: 5%;
 	max-width: 15%;
-	left: 59%;
+	left: 58.5%;
 }
 
 .Hacking {
@@ -91,7 +90,6 @@ img {
 	left: 35%;
 	max-width: 15%;
 }
-
 
 .Kisk {
 	position: absolute;
@@ -114,14 +112,13 @@ img {
 	max-width: 15%;
 }
 
-#fotky{
+#fotky {
 	position: absolute;
 	top: 85%;
 	left: 80%;
-	width: 80%;
+	width: 42%;
 	height: 42%;
 	max-width: 100%;
-	
 }
 
 .FotkyOuter {
@@ -142,7 +139,6 @@ img {
 	top: 75%;
 	right: 78%;
 	max-width: 15%;
-	
 }
 
 .Adam {
@@ -157,20 +153,8 @@ img {
 	top: 15%;
 	right: 82%;
 	max-width: 15%;
-	opacity: 1;
-}
-.SvetlanaTop {
-	position: absolute;
-	top: 15%;
-	right: 82%;
-	opacity: 0;
-	max-width: 150%;
 }
 
-.SvetlanaTop:hover {
-	opacity: 1;
-	max-width: 50%;
-}
 .Jan {
 	position: absolute;
 	top: 75%;
@@ -198,7 +182,7 @@ img {
 	right: 8%;
 	max-width: 15%;
 }
-	
+
 .Hana {
 	position: absolute;
 	top: 47%;
@@ -210,7 +194,7 @@ img {
 	position: absolute;
 	top: 77%;
 	right: 42%;
-	max-width: 17%;
+	max-width: 15%;
 }
 
 footer {
@@ -223,26 +207,15 @@ footer {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.125em;
 	color: #333333;
+	padding-bottom: 0%;
 	display: block;
-	margin-bottom: 2%;
 }
-	
+
 span:nth-child(2) {
 	margin-top: 0;
 	font-weight: bold;
 	color: #fe6f17;
 }
 .SocialneSiete {
-	margin-top: 2%;
-	padding-top: 10%;
 	display: inline;
 }
-
-
-
-
-	
-
-
-
-
