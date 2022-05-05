@@ -1,114 +1,154 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head>
-<meta name="author" content="Svetlana Margetova" />
-<meta name="description" content="Edventure" />
-<meta http-equiv="content-type" content="text/html" charset="windows-1250" />
-  <title>Edventure</title>
-  <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
-  <script type="text/javascript" src="js/javascript.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles/style.css" />
-</head>
-<!--telo stranky -->
-<body>
+	<head>
+		<meta name="author" content="Svetlana Margetova" />
+		<meta name="description" content="Edventure" />
+		<meta
+			http-equiv="content-type"
+			content="text/html"
+			charset="windows-1250"
+		/>
+		<title>Edventure</title>
+		<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<section class="vrch">
+				<header>
+					<h1>Edventure </h1>
+				</header>
+				<h2
+					>Platforma lid&iacute; a projekt� s c&iacute;lem podporovat
+					sebevzd�l&aacute;v&aacute;n&iacute; v �R.</h2
+				>
+				<p
+					>M&aacute;te ot&aacute;zky nebo n&aacute;s chcete jen pozdravit?
+					<a href="mailto:info.edventure@gmail.com" target="new"
+						><span>info@edventure.cz</span></a
+					></p
+				>
+			</section>
+			<section id="content">
+				<div class="main"
+					><img src="images/edventure_bubble.png" />
+					<div class="MimoSkolu"
+						><a href="http://www.mimoskolu.cz" target="new"
+							><img src="images/mimo_skolu_logo.png" alt="mimo_skolu" /></a
+					></div>
+					<div class="Kisked"
+						><a href="http://www.kisked.cz" target="new"
+							><img src="images/kisked_logo.png" alt="kisked" /></a
+					></div>
+					<div class="Hacking"
+						><a href="http://www.mimoskolu.cz/knihovna" target="new"
+							><img
+								src="images/hacking_your_education_logo.png"
+								alt="hacking_your_education" /></a
+					></div>
+					<div class="Partneri"
+						><img src="images/partneri.png" alt="Partneri"
+					/></div>
+					<div class="Kisk"
+						><a href="http://kisk.phil.muni.cz/" target="new"
+							><img src="images/kisk_logo.png" alt="kisk" /></a
+					></div>
+					<div class="EduIn"
+						><a href="http://www.eduin.cz/" target="new"
+							><img src="images/edu_in_logo.png" alt="edu" /></a
+					></div>
+					<div class="CentrumVzdelavania"
+						><a href="http://www.vzdelavanivsem.cz/" target="new"
+							><img
+								src="images/centrum_vzdelavania_logo.png"
+								alt="centrum_vzdelavania" /></a
+					></div>
+					<section id="fotky">
+						<div class="FotkyOuter"
+							><img src="images/outerLine.png" alt="outer" />
+							<div class="Tomas"
+								><img src="images/tomas_foto.png" alt="Tomas Habrmna"
+							/></div>
+							<div class="Adam"
+								><img src="images/adam_foto.png" alt="Adam Amran"
+							/></div>
+							<div class="Svetlana"
+								><img src="images/sveta_foto.png" alt="Svetlana Margetov�"
+							/></div>
+							<div class="Jan"
+								><img src="images/jan_foto.png" alt="Jan Kadlec"
+							/></div>
+							<div class="Tim"><img src="images/tim.png" alt="Tim" /></div>
+							<div id="FotkyInner"
+								><img src="images/innerLine.png" alt="inner"
+							/></div>
+							<div class="Franta"
+								><img src="images/franta_foto.png" alt="Franti�ek Daleck�"
+							/></div>
+							<div class="Jana"
+								><img src="images/jana_foto.png" alt="Jana Plotkov�"
+							/></div>
+							<div class="Hana"
+								><img src="images/hanka_foto.png" alt="Hana Habermanov�"
+							/></div>
+							<div class="Tom"
+								><img src="images/tom_foto.png" alt="Tom� Vojta"
+							/></div>
+						</div>
+					</section>
+				</div>
+			</section>
+			<footer>
+				<div class="info">
+					<p
+						>&copy;2012 Edventure <br />
+						<span>info@edventure.cz</span>
+					</p>
+				</div>
+				<div class="SocialneSiete">
+					<a
+						href="https://twitter.com/share"
+						class="twitter-share-button"
+						data-url="http://www.edventure.cz"
+						data-via="msvetlana23"
+						data-lang="cs"
+						data-dnt="true"
+						>Tweet</a
+					>
+					<script>
+						!(function (d, s, id) {
+							var js,
+								fjs = d.getElementsByTagName(s)[0],
+								p = /^http:/.test(d.location) ? 'http' : 'https';
+							if (!d.getElementById(id)) {
+								js = d.createElement(s);
+								js.id = id;
+								js.src = p + '://platform.twitter.com/widgets.js';
+								fjs.parentNode.insertBefore(js, fjs);
+							}
+						})(document, 'script', 'twitter-wjs');
+					</script>
+					<div
+						class="g-plusone"
+						data-annotation="inline"
+						data-width="300"
+						data-href="http://edventure.cz"
+					></div>
+					<script type="text/javascript">
+						window.___gcfg = { lang: 'cs' };
 
-<!--wrapper stranky -->
-<div id="wrapper">
-
-<!--sekcia s nadpisom -->
-	<section class="vrch">
-  		<header>
-  	  		<h1>Edventure </h1>
-		</header>
-    	<h2>Platforma lid&iacute; a projekt� s c&iacute;lem podporovat sebevzd�l&aacute;v&aacute;n&iacute; v �R.</h2>
-    	<p>M&aacute;te ot&aacute;zky nebo n&aacute;s chcete jen pozdravit? <a href="mailto:info.edventure@gmail.com" target="new"><span>info@edventure.cz</span></a></p>
-	</section>
- 
-<!--koniec vrchnej sekcie-->
-
-<!--content sekcia-->
-	<section id="content">
-    <div class="main"><img src="images/edventure_bubble.png" />
-<!--velke bubliny -->
-			<div class="MimoSkolu"><a href="http://www.mimoskolu.cz" target="new" ><img src="images/mimo_skolu_logo.png" alt="mimo_skolu" /></a></div>
-            <div class="Kisked"><a href="http://www.kisked.cz" target="new" ><img src="images/kisked_logo.png" alt="kisked" /></a></div>
-            <div class="Hacking"><a href="http://www.mimoskolu.cz/knihovna" target="new"><img src="images/hacking_your_education_logo.png" alt="hacking_your_education" /></a></div>
-            <div class="Partneri"><img src="images/partneri.png" alt="Partneri" /></div>
-             
-  <div class="Kisk"><a href="http://kisk.phil.muni.cz/" target="new"><img src="images/kisk_logo.png" alt="kisk" /></a></div>
-  <div class="EduIn"><a href="http://www.eduin.cz/" target="new"><img src="images/edu_in_logo.png" alt="edu" /></a></div>
-  <div class="CentrumVzdelavania"><a href="http://www.vzdelavanivsem.cz/" target="new"><img src="images/centrum_vzdelavania_logo.png" alt="centrum_vzdelavania" /></a></div>
-<!--koniec male bubliny -->
-
-<!--clenovia timu-->
-<section id="fotky">
-<div class="FotkyOuter"><img src="images/outerLine.png" alt="outer" />
-  <div class="Tomas"><img src="images/tomas_foto.png" alt="Tomas Habrmna" /></div>
-  <div class="Adam"><img src="images/adam_foto.png" alt="Adam Amran" /></div>
-  <div class="Svetlana"><img src="images/sveta_foto.png" alt="Svetlana Margetov�" /></div>
-  <div class="Jan"><img src="images/jan_foto.png" alt="Jan Kadlec" /></div>
-  <div class="Tim"><img src="images/tim.png" alt="Tim" /></div>
-  
-  <div id="FotkyInner"><img src="images/innerLine.png" alt="inner" /></div>
-  <div class="Franta"><img src="images/franta_foto.png" alt="Franti�ek Daleck�" /></div>
-  <div class="Jana"><img src="images/jana_foto.png" alt="Jana Plotkov�" /></div>
-  <div class="Hana"><img src="images/hanka_foto.png" alt="Hana Habermanov�" /></div>
-  <div class="Tom"><img src="images/tom_foto.png" alt="Tom� Vojta" /></div>
-  </div>
-  </div>
-  </section>
-  </div>
-  </section>
-<!--koniec clenov timu-->
-
-
-<!--peta stranky-->
-<footer>
-  <div class="info">
-    <p>&copy;2012 Edventure <br />
-    <span>info@edventure.cz</span></p>
-    </div>
-    <div class="SocialneSiete">
-    <!--facebook-->
-<!--twitter-->
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.edventure.cz" data-via="msvetlana23" data-lang="cs" data-dnt="true">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<!--koniec twitter-->
-<!-- google plus -->
-<div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://edventure.cz"></div>
-
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'cs'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-<!--koniec google plus-->
-</div>
-</footer>
-<!--koniec pety stranky-->
-</div>
-</body>
+						(function () {
+							var po = document.createElement('script');
+							po.type = 'text/javascript';
+							po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(po, s);
+						})();
+					</script>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
-
-
-  
-  
-  
-
-
-  
-  
-  
-  
-  
-  
-  
- 
-  
-    
-    
